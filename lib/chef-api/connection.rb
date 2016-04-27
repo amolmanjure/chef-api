@@ -457,6 +457,7 @@ module ChefAPI
         'Keep-Alive'     => '30',
         'User-Agent'     => user_agent,
         'X-Chef-Version' => '11.4.0',
+        'X-Ops-Reporting-Protocol-Version' => '0.1.0',
       }
 
       headers.each do |key, value|
